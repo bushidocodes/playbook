@@ -9,3 +9,6 @@ markdown: kramdown
 
 sass:
     sass_dir: assets/_sass
+
+kramdown:
+  auto_ids: false

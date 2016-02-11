@@ -31,9 +31,14 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     line-height: 1.5em;
   }
 
-  body#techfar_landing_page {
-    background: $atlantic_blue;
+  body#ccsd_landing_page {
+    background: $white;
   }
+
+  #ccsd_introduction {
+    background: $white;
+  }
+
 
   a {
     color: inherit;
@@ -188,9 +193,71 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
 
   #introduction {
-    background: $usds-navy;
+    background: black;
     color: $white;
     padding-bottom: 60px;
+
+    a {
+      text-decoration: underline;
+    }
+
+    a:hover {
+      background: $white;
+      color: $atlantic_blue;
+    }
+
+    #faa_logo {
+      display: inline-block;
+      img {
+        max-height: 100%;
+        max-width: 100%;
+        width: 200px;
+      }
+    }
+
+    #faa_logo:hover {
+      background: none;
+      opacity: 0.7;
+    }
+
+    .button a {
+      text-decoration: none;
+    }
+
+    p {
+      max-width: 700px;
+      font-family: $serif;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 2.0em;
+      margin-top: 40px;
+
+      color: $white;
+    }
+
+    p.download_links {
+      font-size: 16px;
+    }
+
+    @include media($mobile) {
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+      }
+      padding-bottom: 20px;
+    }
+  }
+
+  #trimodal {
+    background: $atlantic_blue;
+    color: $white;
+    padding-bottom: 60px;
+
+    img {
+        width: 100%;
+
+    }
 
     a {
       text-decoration: underline;
@@ -288,7 +355,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     li {
       display: inline;
-      margin-left: 5px;
+      margin-left: 1px;
       list-style-type: none;
 
       a {
@@ -454,7 +521,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
   }
 
-  #plays, #techfar {
+  #plays {
     h2, h3 {
       @include span-columns(8);
     }
@@ -526,7 +593,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
   }
 
-  #techfar {
+  #ccsd {
     em {
       font-size: 12px;
       // margin-right: 5px;
@@ -564,6 +631,10 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
   #navigation_bar {
     display: none;
+  }
+
+  img {
+      width: 200px;
   }
 
   a {
