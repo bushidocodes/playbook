@@ -75,7 +75,7 @@
                 <h2>Low Gear</h2>
                 <div class="columns">
                     <ol>
-                        {% for play in site.plays %} {% if (play.gear == 'low') %}
+                        {% for play in site.plays %} {% if play.gear == 'low' %}
                         <li value={{ play.playid }}><a href="#play{{ play.playid }}" title="View Play {{ play.playid }}">{{ play.title}}</a></li>
                         {% endif %} {% endfor %}
                     </ol>
@@ -84,7 +84,7 @@
                 <h2>Medium Gear</h2>
                 <div class="columns">
                     <ol>
-                        {% for play in site.plays %} {% if (play.gear == 'medium') %}
+                        {% for play in site.plays %} {% if play.gear == 'medium' %}
                         <li value={{ play.playid }}><a href="#play{{ play.playid }}" title="View Play {{ play.playid }}">{{ play.title }}</a></li>
                         {% endif %} {% endfor %}
                     </ol>
@@ -93,7 +93,7 @@
                 <h2>High Gear</h2>
                 <div class="columns">
                     <ol>
-                        {% for play in site.plays %} {% if (play.gear == 'high') %}
+                        {% for play in site.plays %} {% if play.gear == 'high' %}
                         <li value={{ play.playid }}><a href="#play{{ play.playid }}" title="View Play {{ play.playid }}">{{ play.title }}</a></li>
                         {% endif %} {% endfor %}
                     </ol>
