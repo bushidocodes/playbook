@@ -1,6 +1,7 @@
 permalink: pretty
 highlighter: rouge
-url: https://playbook.cio.gov
+url: "https://bushidocodes.github.io"
+baseurl: "/playbook"
 
 collections:
   - plays
