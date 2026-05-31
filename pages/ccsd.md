@@ -20,7 +20,7 @@ permalink: /ccsd/
 </style>
 -->
 
-#Cloud Computing Services Description (CCSD)##
+# Cloud Computing Services Description (CCSD)
 _Extracted from FCS SIR J-1, dated August 21, 2015_
 
 _Please refer to the hardcopy on the FCS CO SharePoint for the cannonical verbiage_

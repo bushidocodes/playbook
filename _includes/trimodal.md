@@ -1,4 +1,4 @@
-##Introduction to Tri-Modal Approach to Cloud Services
+## Introduction to Tri-Modal Approach to Cloud Services
 
 ![Image of bicycle gear
 shift]({{site.baseurl}}/assets/images/Bicycle_Drivetrain.png)

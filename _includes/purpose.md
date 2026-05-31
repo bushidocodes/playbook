@@ -1,4 +1,4 @@
-##Purpose
+## Purpose
 In 2016, the FAA approved AIT Business Plan Item 15C.119B1 Target 2,
 which identified and documented standard configurations and platforms
 required for architecting environments for business owners. This
